@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F4F6FA; 
+    
+
+}
+
+.container{
+    max-width: 300px;
+    margin: 50px auto;
+    overflow:auto;
+    padding:20px;
+    border-radius: 10px;
+    background:white;
+    
+}
+
+
+#head-title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#head-title h1{
+    font-size: 20px;
+}
+
+#head-title i{
+    font-size: 20px;
+    margin-left:20px;
+
+}
+
+#head-title i:hover{
+    background:#cfd0d3;
+}
+
+
+
+.input-search-icon input{
+    margin-top:19px;
+    padding:16px;
+    background:#F4F6FA;
+    border:1px solid rgb(233, 230, 230);
+    border-radius: 5px;
+    width:100%;
+}
+
+
+
+h4{
+    font-size:14px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
+
+
+form{
+    display:grid;
+    grid-template-rows: 1fr;
+}
+
+.input-search-icon input::placeholder{
+    padding-left:15px;
+    color:#415F8C;
+}
+
+.input-search-icon input:focus{
+    outline: none;
+
+}
+
+.chart img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+.chart{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.chart h5{
+  padding-right: 75px;
+  position: relative;
+  top:7px;
+}
+
+.chart:nth-child(2C){
+    background:#F4F6FA ;
+    padding:10px;
+}
+
+.chart input{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    right: 20px;
+    top:10px;
+    
+}
+
+
+
